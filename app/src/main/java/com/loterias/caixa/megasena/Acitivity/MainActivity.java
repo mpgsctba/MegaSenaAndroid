@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         mainActivity = this;
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
-        // Create the AccountHeader
+        //Create the AccountHeader
         AccountHeader headerResult = new AccountHeaderBuilder()
                 .withActivity(this)
                 .withHeaderBackground(R.drawable.teste_logo)
