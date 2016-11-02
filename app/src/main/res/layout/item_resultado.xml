@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@android:color/white"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:text="1748"
+        android:textColor="#ff676769"
+        android:id="@+id/concursoIdItem"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.59">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/dezena01"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/numero_13"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/dezena02"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/numero_13"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/dezena03"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/numero_13"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/dezena04"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/numero_13"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/dezena05"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/numero_13"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/dezena06"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/numero_13"/>
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/btnDetalhes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_gravity="center_vertical"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:src="@drawable/ic_seta"/>
+
+
+</LinearLayout>
